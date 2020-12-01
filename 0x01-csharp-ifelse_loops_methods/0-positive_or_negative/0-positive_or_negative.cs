@@ -14,7 +14,7 @@ class Program
         {
             Console.WriteLine($"{number} is zero");
         }
-        else
+        else if (number < 0)
         {
             Console.WriteLine($"{number} is negative");
         }

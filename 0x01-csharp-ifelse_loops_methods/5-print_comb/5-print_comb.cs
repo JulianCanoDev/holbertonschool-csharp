@@ -9,7 +9,7 @@ namespace _5_print_comb
             int num;
             for (num = 0 ; num <= 99 ; num++)
             {
-                if (num < 90)
+                if (num < 99)
                     Console.Write($"{num:00}, ");
                 else if (num == 99)
                 {

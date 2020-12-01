@@ -6,7 +6,14 @@ namespace _3_print_alphabt
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            char alphabet = 'a';
+            for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+            {
+                if (alphabet == 'q' || alphabet == 'e')
+                    continue;
+                else
+                    Console.Write(alphabet);
+            }
         }
     }
 }

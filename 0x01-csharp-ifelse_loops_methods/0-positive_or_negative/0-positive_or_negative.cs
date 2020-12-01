@@ -10,13 +10,13 @@ class Program
         {
             Console.WriteLine($"{number} is positive");
         }
+        else if (number = 0)
+        {
+            Console.WriteLine($"0 is zero");
+        }
         else if (number < 0)
         {
             Console.WriteLine($"{number} is negative");
-        }
-        else
-        {
-            Console.WriteLine($"0 is zero");
         }
     }
 }

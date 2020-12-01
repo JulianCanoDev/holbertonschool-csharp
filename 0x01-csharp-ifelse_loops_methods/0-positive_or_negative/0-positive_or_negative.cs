@@ -16,7 +16,7 @@ class Program
         }
         else
         {
-            Console.WriteLine($"0 is zero");
+            Console.WriteLine($"{number} is zero");
         }
     }
 }

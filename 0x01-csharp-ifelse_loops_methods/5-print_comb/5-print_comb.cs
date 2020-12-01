@@ -6,7 +6,16 @@ namespace _5_print_comb
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int num;
+            for (num = 0 ; num <= 99 ; num++)
+            {
+                if (num < 90)
+                    Console.Write($"{num:00}, ");
+                else if (num == 99)
+                {
+                    Console.WriteLine($"{num:00}");
+                }
+            }
         }
     }
 }

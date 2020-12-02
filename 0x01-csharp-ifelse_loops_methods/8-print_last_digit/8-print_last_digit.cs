@@ -2,11 +2,11 @@
 
 namespace _8_print_last_digit
 {
-    class Program
+    class Number
     {
-        static void Main(string[] args)
+        public static int PrintLastDigit(int number)
         {
-            Console.WriteLine("Hello World!");
+            return(number % 10);
         }
     }
 }

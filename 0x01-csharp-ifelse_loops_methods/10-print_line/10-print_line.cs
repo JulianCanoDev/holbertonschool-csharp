@@ -2,11 +2,23 @@
 
 namespace _10_print_line
 {
-    class Program
+    class Line
     {
-        static void Main(string[] args)
+        public static void PrintLine(int length)
         {
-            Console.WriteLine("Hello World!");
+            int i;
+            if (length <= 0)
+            {
+                Console.Write("\n");
+            }
+            else
+            {
+                for (i = 0 ; i < length ; i++)
+                {
+                    Console.Write("_");
+                }
+                Console.Write("\n");
+            }
         }
     }
 }

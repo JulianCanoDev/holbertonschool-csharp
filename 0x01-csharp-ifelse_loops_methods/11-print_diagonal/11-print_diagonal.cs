@@ -2,11 +2,25 @@
 
 namespace _11_print_diagonal
 {
-    class Program
+    class Line
     {
-        static void Main(string[] args)
+        public static void PrintDiagonal(int length)
         {
-            Console.WriteLine("Hello World!");
+            int repetitions, spaces;
+            if (length <= 0)
+                Console.Write("\n");
+            else
+            {
+                for (repetitions = 0 ; repetitions < length ; repetitions++)
+                {
+                    for (spaces = 0 ; spaces < repetitions ; spaces++)
+                    {
+                        Console.Write(" ");
+                    }
+                    Console.Write("/");
+                }
+                Console.Write("\n");
+            }
         }
     }
 }

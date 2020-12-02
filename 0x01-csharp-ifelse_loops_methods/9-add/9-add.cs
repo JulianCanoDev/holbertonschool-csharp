@@ -2,11 +2,11 @@
 
 namespace _9_add
 {
-    class Program
+    class Number
     {
-        static void Main(string[] args)
+        public static int Add(int a, int b)
         {
-            Console.WriteLine("Hello World!");
+            return(a + b);
         }
     }
 }

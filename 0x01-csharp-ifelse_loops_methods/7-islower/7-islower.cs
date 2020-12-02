@@ -1,15 +1,12 @@
 ﻿using System;
 
-namespace _7_islower
+class Character
 {
-    class Character
+    public static bool IsLower(char c)
     {
-        public static bool IsLower(char c)
-        {
-            if (c >= 'a' && c <= 'z')
-                return(true);
-            else
-                return(false);
-        }
+        if (c >= 'a' && c <= 'z')
+            return(true);
+        else
+            return(false);
     }
 }

@@ -13,6 +13,5 @@ class Array
             Console.WriteLine("Size cannot be negative");
             return (null);
         }
-        
     }
 }

@@ -1,12 +1,9 @@
 ﻿using System;
 
-namespace _8_print_last_digit
+class Number
 {
-    class Number
+    public static int PrintLastDigit(int number)
     {
-        public static int PrintLastDigit(int number)
-        {
-            return(number % 10);
-        }
+        return(number % 10);
     }
 }

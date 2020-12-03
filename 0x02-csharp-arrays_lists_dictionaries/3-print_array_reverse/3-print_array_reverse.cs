@@ -12,8 +12,9 @@ class Array
                 if (i > 0)
                     Console.Write($"{array[i]} ");
                 else
-                    Console.WriteLine(array[i]);
+                    Console.Write(array[i]);
             }
         }
+        Console.Write('\n');
     }
 }

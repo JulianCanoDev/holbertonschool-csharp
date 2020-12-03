@@ -9,7 +9,7 @@ class Array
         {
             for (i = array.Length - 1 ; i >= 0 ; i--)
             {
-                if (array > 0)
+                if (i > 0)
                     Console.Write($"{array[i]} ");
                 else
                     Console.WriteLine(array[i]);

@@ -49,7 +49,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 | Authors | GitHub | Twitter | Linkedin |
 | :---: | :---: | :---: | :---: |
-| Maria Fernanda Crespo | [mfcrespo](https://github.com/mfcrespo) | [@mafe_crespo](https://twitter.com/mafe_crespo) | [mariafernandacrespo](https://www.linkedin.com/in/mariafernandacrespo) |
+| Julian Cano | [mfcrespo](https://github.com/JulianCanoDev) | [@mafe_crespo](https://twitter.com/JulianCanoDev) | [mariafernandacrespo](https://www.linkedin.com/in/juliancanodev/) |
 
 ### License
 *`0x03. C# - Data Structures: HashSet, Stack, Queue, LinkedList` is open source and therefore free to download and use without permission.*

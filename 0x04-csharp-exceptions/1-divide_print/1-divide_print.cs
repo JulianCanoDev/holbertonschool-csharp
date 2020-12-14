@@ -1,10 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
 
 class Int
 {
     public static void divide(int a, int b)
     {
-        Console.WriteLine("Hello World!");
+        try
+        {
+            int result = a / b;
+            Console.WriteLine($"{a} / {b} = {result}");
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("Cannot divide by zero");
+            Console.WriteLine($"{a} / {b} = 0");
+        }
+        finally
+        {
+            Console.Write("");
+        }
     }
 }

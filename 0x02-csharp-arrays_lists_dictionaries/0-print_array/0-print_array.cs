@@ -5,6 +5,7 @@ class Array
     public static int[] CreatePrint(int size)
     {
         int i;
+
         if (size == 0)
         {
             Console.Write('\n');

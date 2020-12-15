@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace _0_enemy
+// Adds two integers and returns the result
+/// <summary>
+/// Adds two integers and returns the result.
+/// </summary>
+namespace Enemies
 {
-    class Program
+    class Zombie
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        
     }
 }

@@ -8,6 +8,6 @@ namespace Enemies
 {
     class Zombie
     {
-        
+
     }
 }

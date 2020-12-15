@@ -15,13 +15,9 @@ namespace Enemies
         public Zombie(int value)
         {
             if (value >= 0)
-            {
                 this.health = value;
-            }
             else if (value < 0)
-            {
                 throw new ArgumentException("Health must be greater than or equal to 0");
-            }
         }
     }
 }

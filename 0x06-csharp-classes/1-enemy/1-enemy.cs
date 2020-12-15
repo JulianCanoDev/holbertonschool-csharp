@@ -8,9 +8,9 @@ namespace Enemies
     class Zombie
     {
         public int health;
-        public Zombie(int health = 0)
+        public Zombie()
         {
-            this.health = health;
+            health = 0;
         }
     }
 }

@@ -9,7 +9,7 @@ namespace MyMath.Test
         [Test]
         public void Test_Add_20_from_12_8()
         {
-            Assert.AreEqual(20, Operations.Add(12, 8));
+            Assert.AreEqual(22, Operations.Add(12, 10));
         }
     }
 }

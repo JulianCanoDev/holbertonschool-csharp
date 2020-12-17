@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Text.Test
+namespace MyMath.Tests
 {
     public class Tests
     {

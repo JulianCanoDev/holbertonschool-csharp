@@ -1,0 +1,13 @@
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/bin/Debug/net5.0/MyMath.deps.json
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/bin/Debug/net5.0/MyMath.dll
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/bin/Debug/net5.0/ref/MyMath.dll
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/bin/Debug/net5.0/MyMath.pdb
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/bin/Debug/net5.0/MyMath.xml
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/net5.0/MyMath.csprojAssemblyReference.cache
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/net5.0/MyMath.GeneratedMSBuildEditorConfig.editorconfig
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/net5.0/MyMath.AssemblyInfoInputs.cache
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/net5.0/MyMath.AssemblyInfo.cs
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/net5.0/MyMath.csproj.CoreCompileInputs.cache
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/net5.0/MyMath.dll
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/net5.0/ref/MyMath.dll
+/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/net5.0/MyMath.pdb

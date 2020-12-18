@@ -23,5 +23,13 @@ namespace Text.Tests
         {
             Assert.AreEqual(true, Str.IsPalindrome("A man, a plan, a canal: Panama."));
         }
+        public void Test_Palindrome_05()
+        {
+            Assert.AreEqual(true, Str.IsPalindrome("Desserts, I stressed"));
+        }
+        public void Test_Palindrome_06()
+        {
+            Assert.AreEqual(true, Str.IsPalindrome("Red rum, sir, is murder"));
+        }
     }
 }

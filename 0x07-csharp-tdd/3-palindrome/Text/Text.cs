@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Text
 {
@@ -12,22 +13,16 @@ namespace Text
         /// </summary>
         public static bool IsPalindrome(string s)
         {
-            if (s.Length == 0)
-                return(true);
+            string newString = String.Join("", s.ToLower().Split(' ', ',', '.', ':', ';', '\''));
+            int strLen = newString.Length - 1;
 
-            string str = s;
-            str = str.ToLower();
-            str = str.Trim(' ', ',', '.', ':', ';');
-
-            int i = 0;
-            int j = str.Length - 1;
-
-            for ( ; i < j ; i++, j--)
+            foreach (char letter in newString)
             {
-                if (str[i] != str[j])
-                    return(false);
+                if ( letter != newString[strLen])
+                    return false;
+                strLen--;
             }
-            return(true);
+            return true;
         }
     }
 }

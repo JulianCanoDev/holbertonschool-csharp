@@ -14,7 +14,7 @@ namespace Text.Tests
         [Test]
         public void Test_Palindrome_02()
         {
-            Assert.AreEqual(true, Str.IsPalindrome("reconocer"));
+            Assert.AreEqual(true, Str.IsPalindrome("Reconocer"));
         }
         [Test]
         public void Test_Palindrome_03()

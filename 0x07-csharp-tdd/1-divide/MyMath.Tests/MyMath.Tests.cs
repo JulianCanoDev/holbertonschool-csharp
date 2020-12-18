@@ -38,7 +38,7 @@ namespace MyMath.Tests
             int[,] result = Matrix.Divide(matrix, n);
             Assert.AreEqual(expected, result);
         }
-                [Test]
+        [Test]
         public void test_matrix_negative_and_positive()
         {
             int[,] matrix = {{3, -6, 9}, {-12, 15, -18}};

@@ -24,15 +24,15 @@ namespace MyMath
                     return null;
                 }
 
-            int[,] ret_matrix = matrix;
+            int[,] res = matrix;
             for (i = 0; i < matrix.GetLength(0) ; i++)
             {
                 for (j = 0; j < matrix.GetLength(1) ; j++)
                 {
-                    ret_matrix[i, j] /= num;
+                    res[i, j] /= num;
                 }
             }
-            return ret_matrix;
+            return res;
         }
     }
 }

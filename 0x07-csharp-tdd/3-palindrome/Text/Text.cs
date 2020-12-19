@@ -13,12 +13,12 @@ namespace Text
         /// </summary>
         public static bool IsPalindrome(string s)
         {
-            string newString = String.Join("", s.ToLower().Split(' ', ',', '.', ':', ';', '\''));
-            int strLen = newString.Length - 1;
+            string new_string = String.Join("", s.ToLower().Split(' ', ',', '.', ':', ';', '\''));
+            int strLen = new_string.Length - 1;
 
-            foreach (char letter in newString)
+            foreach (char letter in new_string)
             {
-                if ( letter != newString[strLen])
+                if ( letter != new_string[strLen])
                     return false;
                 strLen--;
             }

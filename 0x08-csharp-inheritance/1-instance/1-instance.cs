@@ -2,11 +2,14 @@
 
 namespace _1_instance
 {
-    class Program
+    class Obj
     {
-        static void Main(string[] args)
+        public static bool IsInstanceOfArray(object obj)
         {
-            Console.WriteLine("Hello World!");
+            if (obj is Array)
+                return(true);
+            else
+                return(false);
         }
     }
 }

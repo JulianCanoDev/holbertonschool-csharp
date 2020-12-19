@@ -2,11 +2,14 @@
 
 namespace _2_subclass
 {
-    class Program
+    class Obj
     {
-        static void Main(string[] args)
+        public static bool IsOnlyASubclass(Type derivedType, Type baseType)
         {
-            Console.WriteLine("Hello World!");
+            if (derivedType.IsSubclassOf(baseType))
+                return(true);
+            else
+                return(false);
         }
     }
 }

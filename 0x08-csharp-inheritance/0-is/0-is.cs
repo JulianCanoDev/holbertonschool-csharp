@@ -2,11 +2,14 @@
 
 namespace _0_is
 {
-    class Program
+    class Obj
     {
-        static void Main(string[] args)
+        public static bool IsOfTypeInt(object obj)
         {
-            Console.WriteLine("Hello World!");
+            if (obj.GetType() == typeof(int))
+                return(true);
+            else
+                return(false);
         }
     }
 }

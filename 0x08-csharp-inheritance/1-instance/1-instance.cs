@@ -2,8 +2,14 @@
 
 namespace _1_instance
 {
+    /// <summary>
+    /// This is our class Zombie.
+    /// </summary>
     class Obj
     {
+        /// <summary>
+        /// This is our class Zombie.
+        /// </summary>
         public static bool IsInstanceOfArray(object obj)
         {
             if (obj is Array)

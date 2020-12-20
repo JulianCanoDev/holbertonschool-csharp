@@ -1,5 +1,8 @@
 ﻿using System;
 
+/// <summary>
+/// This is our class Zombie.
+/// </summary>
 class Shape
 {
     public virtual int Area()
@@ -8,6 +11,9 @@ class Shape
     }
 }
 
+/// <summary>
+/// This is our class Zombie.
+/// </summary>
 class Rectangle : Shape
 {
     private int width;
@@ -44,6 +50,9 @@ class Rectangle : Shape
     }
 }
 
+/// <summary>
+/// This is our class Zombie.
+/// </summary>
 class Square : Rectangle
 {
     private int size;

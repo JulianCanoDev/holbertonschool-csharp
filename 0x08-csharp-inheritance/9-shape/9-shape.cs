@@ -62,7 +62,7 @@ class Square : Rectangle
                 }
         }
     }
-    public new int Area()
+    public override int Area()
     {
         return(this.size * this.size);
     }

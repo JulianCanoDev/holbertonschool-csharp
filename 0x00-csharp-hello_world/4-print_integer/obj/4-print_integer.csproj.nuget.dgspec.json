@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x00-csharp-hello_world/4-print_integer/4-print_integer.csproj": {}
+    "C:\\holberton_school\\1_advanced_program\\holbertonschool-csharp\\0x00-csharp-hello_world\\4-print_integer\\4-print_integer.csproj": {}
   },
   "projects": {
-    "/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x00-csharp-hello_world/4-print_integer/4-print_integer.csproj": {
+    "C:\\holberton_school\\1_advanced_program\\holbertonschool-csharp\\0x00-csharp-hello_world\\4-print_integer\\4-print_integer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x00-csharp-hello_world/4-print_integer/4-print_integer.csproj",
+        "projectUniqueName": "C:\\holberton_school\\1_advanced_program\\holbertonschool-csharp\\0x00-csharp-hello_world\\4-print_integer\\4-print_integer.csproj",
         "projectName": "4-print_integer",
-        "projectPath": "/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x00-csharp-hello_world/4-print_integer/4-print_integer.csproj",
-        "packagesPath": "/home/julian/.nuget/packages/",
-        "outputPath": "/home/julian/holberton_school/1_spetialization/holbertonschool-csharp/0x00-csharp-hello_world/4-print_integer/obj/",
+        "projectPath": "C:\\holberton_school\\1_advanced_program\\holbertonschool-csharp\\0x00-csharp-hello_world\\4-print_integer\\4-print_integer.csproj",
+        "packagesPath": "C:\\Users\\holberton\\.nuget\\packages\\",
+        "outputPath": "C:\\holberton_school\\1_advanced_program\\holbertonschool-csharp\\0x00-csharp-hello_world\\4-print_integer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/julian/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\holberton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

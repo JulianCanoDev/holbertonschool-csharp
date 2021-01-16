@@ -7,7 +7,7 @@ class VectorMath
     ///if the vector is not 2D or 3D it returns -1.</summary>
     public static double Magnitude(double[] vector)
     {
-        if (vector.Length != 2 || vector.Length != 3)
+        if (vector.Length < 2 || vector.Length > 3)
             return -1;
 
         double magnitude = 0;

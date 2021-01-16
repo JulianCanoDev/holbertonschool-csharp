@@ -7,9 +7,14 @@ class VectorMath
         if (vector.Length != 2 || vector.Length != 3)
             return(-1);
 
+        double magnitude = 0;
+
         if (vector.Length == 2)
-            return(Math.Sqrt(Math.Pow(vector[0] + vector[1], 2)));
+            magnitude = vector[0] * vector[1];
         if (vector.Length == 3)
-            return(Math.Sqrt(Math.Pow(vector[0] + vector[1] + vector[2], 2)));
+            magnitude = vector[0] * vector[1] * vector[2];
+
+        magnitude = Math.Round(Math.Sqrt(magnitude), 2);
+        return(magnitude);
     }
 }

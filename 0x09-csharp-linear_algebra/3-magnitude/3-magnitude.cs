@@ -6,7 +6,7 @@ class VectorMath
     /// <summary>This is the class object.</summary>
     public static double Magnitude(double[] vector)
     {
-        if (vector.Length < 2 || vector.Length > 3)
+        if (vector.Length != 2 || vector.Length != 3)
             return(-1);
 
         double magnitude = 0;

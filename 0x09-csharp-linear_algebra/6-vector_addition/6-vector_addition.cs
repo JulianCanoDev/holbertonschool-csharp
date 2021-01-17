@@ -9,8 +9,8 @@ class VectorMath
     {
         double[] sum = new double[2];
 
-        if (vector1.Length < 2 || vector1.Length > 3 || vector2.Length < 2 ||
-            vector2.Length > 3 || vector1.Length != vector1.Length)
+        if (vector1.Length != vector2.Length || vector1.Length < 2 || vector1.Length > 3
+            || vector2.Length < 2 || vector2.Length > 3)
         {
         for (int i = 0; i < 2; i++)
             sum[i] = -1;

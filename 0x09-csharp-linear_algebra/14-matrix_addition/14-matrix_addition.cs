@@ -16,15 +16,7 @@ class MatrixMath
             (matrix1.GetLength(1) != matrix2.GetLength(1))
         )
         {
-            for (i = 0 ; i < 2 ; i++)
-            {
-                for (j = 0 ; j < 2 ; j++)
-                {
-                    sum[i, j] = -1;
-                }
-            }
-
-            return(sum);
+            return new double[,]{{-1}};
         }
 
         int matrix1_len = matrix1.GetLength(0);

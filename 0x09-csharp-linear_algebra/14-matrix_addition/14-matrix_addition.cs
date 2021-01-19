@@ -6,7 +6,6 @@ class MatrixMath
     /// <summary>This is the class object.</summary>
     public static double[,] Add(double[,] matrix1, double[,] matrix2)
     {
-        double[,] sum = new double[2, 2];
         int i, j;
 
         if (

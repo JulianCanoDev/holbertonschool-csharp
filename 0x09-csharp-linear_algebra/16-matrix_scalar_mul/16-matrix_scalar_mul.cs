@@ -15,16 +15,18 @@ class MatrixMath
             return new double[,]{{-1}};
         }
 
-        int dimMat = matrix.GetLength(0);
-        double[,] kMatrix = new double[dimMat, dimMat];
+        int i, j;
+        int matrix_len = matrix.GetLength(0);
+        double[,] sca_matrix = new double[matrix_len, matrix_len];
 
-        for (int vec = 0; vec < dimMat; vec++)
+        for (i = 0 ; i < matrix_len ; i++)
         {
-            for (int row = 0; row < dimMat; row++)
+            for (j = 0 ; j < matrix_len ; j++)
             {
-                kMatrix[vec, row] = scalar * matrix[vec, row] ;
+                sca_matrix[i, j] = (matrix[i, j] * scalar);
             }
         }
-        return kMatrix;
+
+        return(sca_matrix);
     }
 }

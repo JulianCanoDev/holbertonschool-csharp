@@ -1,9 +1,15 @@
 ﻿using System;
 
-class Program
+/// <summary>
+/// This is Queue.
+/// </summary>
+public class Queue<T>
 {
-    static void Main(string[] args)
+    /// <summary>
+    /// This is Queue empty class.
+    /// </summary>
+    public Type CheckType()
     {
-        Console.WriteLine("Hello World!");
+        return(typeof(T));
     }
 }

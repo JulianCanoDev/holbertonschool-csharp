@@ -42,3 +42,17 @@ public interface ICollectable
     void Collect();
 }
 
+/// <summary>This is Interact.</summary>
+public class Door : Base, IInteractive
+{
+    /// <summary>This is Interact.</summary>
+    public Door(string name = "Door")
+    {
+        this.name = name;
+    }
+    /// <summary>This is Interact.</summary>
+    public void Interact()
+    {
+        Console.WriteLine($"You try to open the {name}. It's locked.");
+    }
+}

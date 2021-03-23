@@ -33,10 +33,12 @@ public interface IBreakable
     void Break();
 }
 
-interface ICollectable
+/// <summary>This is Interact.</summary>
+public interface ICollectable
 {
+    /// <summary>This is Interact.</summary>
     bool isCollected{ get; set; }
-
+    /// <summary>This is Interact.</summary>
     void Collect();
 }
 

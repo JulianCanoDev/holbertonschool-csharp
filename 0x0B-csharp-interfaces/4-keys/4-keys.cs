@@ -132,12 +132,12 @@ public class Key : Base, ICollectable
     /// <summary>This is Interact.</summary>
     public void Collect()
     {
-        if (!isCollected)
+        if (isCollected == false)
         {
             isCollected = true;
             Console.WriteLine($"You pick up the {name}.");
         }
-        else if (isCollected)
+        else if (isCollected == true)
         {
             Console.WriteLine($"You have already picked up the {name}.");
         }

@@ -123,7 +123,7 @@ public class Key : Base, ICollectable
     /// <summary>This is Interact.</summary>
     public bool isCollected{get; set;}
     /// <summary>This is Interact.</summary>
-    public Key(string name = "key", bool isCollected = false)
+    public Key(string name = "Key", bool isCollected = false)
     {
         this.name = name;
         this.isCollected = isCollected;
@@ -137,7 +137,7 @@ public class Key : Base, ICollectable
             isCollected = true;
             Console.WriteLine($"You pick up the {name}.");
         }
-        else
+        else if (isCollected == true)
         {
             Console.WriteLine($"You have already picked up the {name}.");
         }

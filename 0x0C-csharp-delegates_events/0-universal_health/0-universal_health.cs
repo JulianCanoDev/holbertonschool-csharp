@@ -16,10 +16,10 @@ public class Player
     public Player(string name = "Player", float maxHp = 100f)
     {
         this.name = name;
-        this.maxHp = maxHp;
 
         if (maxHp > 0)
         {
+            this.maxHp = maxHp;
             this.hp = maxHp;
         }
         else

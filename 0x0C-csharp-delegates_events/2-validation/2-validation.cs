@@ -3,9 +3,6 @@
 /// <summary>This is Interact.</summary>
 public class Player
 {
-    /// <summary>This is a delegate.</summary>
-    public delegate float CalculateHealth();
-
     /// <summary>This is name string variable.</summary>
     public string name;
 
@@ -70,3 +67,6 @@ public class Player
             hp = newHp;
     }
 }
+
+/// <summary>This is a delegate.</summary>
+    public delegate float CalculateHealth();

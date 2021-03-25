@@ -3,7 +3,7 @@
   <PropertyGroup>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_2_doors</RootNamespace>
     <RootNamespace>_0_universal_health</RootNamespace>
   </PropertyGroup>
 

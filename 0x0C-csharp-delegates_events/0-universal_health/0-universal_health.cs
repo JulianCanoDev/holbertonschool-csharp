@@ -16,10 +16,10 @@ public class Player
     public Player(string name = "Player", float maxHp = 100f)
     {
         this.name = name;
+        this.maxHp = maxHp;
 
         if (maxHp > 0)
         {
-            this.maxHp = maxHp;
             this.hp = maxHp;
         }
         else
@@ -33,6 +33,6 @@ public class Player
     /// <summary>This is PrintHealth Method.</summary>
     public void PrintHealth()
     {
-        Console.WriteLine($"{name} has {hp} / {maxHp} health");
+        Console.WriteLine($"{this.name} has {this.hp} / {this.maxHp} health");
     }
 }

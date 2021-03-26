@@ -45,8 +45,10 @@ public class Player
         if (damage < 0)
             Console.WriteLine($"{name} takes 0 damage!");
         else
-            ValidateHP(hp -= damage);
+        {
             Console.WriteLine($"{name} takes {damage} damage!");
+            ValidateHP(hp -= damage);
+        }
     }
 
     /// <summary>This is HealDamage(float heal) Method.</summary>
@@ -55,8 +57,10 @@ public class Player
         if (heal < 0)
             Console.WriteLine($"{name} heals 0 HP!");
         else
-            ValidateHP(hp += heal);
+        {
             Console.WriteLine($"{name} heals {heal} HP!");
+            ValidateHP(hp += heal);
+        }
     }
 
     /// <summary>This is ValidateHP(float newHp) Method.</summary>

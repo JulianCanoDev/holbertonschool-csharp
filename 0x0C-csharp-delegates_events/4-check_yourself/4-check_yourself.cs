@@ -86,6 +86,7 @@ public class Player
             hp = maxHp;
         else
             hp = newHp;
+        HPCheck(this, new CurrentHPArgs(this.hp));
     }
 
     /// <summary>This is ApplyModifier(float baseValue, Modifier modifier) Method.</summary>
@@ -101,7 +102,7 @@ public class Player
 
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
-        if (e.currentHp == maxHp)
+        if (e.currentHp == this.maxHp)
             this.status = $"{name} is in perfect health!";
         else if (e.currentHp >= (this.maxHp * 0.5f) && e.currentHp < this.maxHp)
             this.status = $"{name} is doing well!";
@@ -111,6 +112,7 @@ public class Player
             this.status = $"{name} needs help!";
         else if (e.currentHp == 0)
             this.status = $"{name} is knocked out!";
+
         Console.WriteLine(this.status);
     }
 }

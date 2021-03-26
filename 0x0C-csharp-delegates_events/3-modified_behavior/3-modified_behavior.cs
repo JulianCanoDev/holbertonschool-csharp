@@ -1,11 +1,24 @@
 ﻿using System;
 
+/// <summary>This is a CalculateModifier(float baseValue, Modifier modifier) delegate.</summary>
+public delegate float CalculateModifier(float baseValue, Modifier modifier);
+
+/// <summary>This is a CalculateHealth() delegate.</summary>
+public delegate float CalculateHealth();
+
+/// <summary>This is a delegate.</summary>
+public enum Modifier{
+    /// <summary>This is a delegate.</summary>
+    Weak,
+    /// <summary>This is a delegate.</summary>
+    Base,
+    /// <summary>This is a delegate.</summary>
+    Strong
+}
+
 /// <summary>This is Interact.</summary>
 public class Player
 {
-    /// <summary>This is a delegate.</summary>
-    public delegate float CalculateHealth();
-
     /// <summary>This is name string variable.</summary>
     public string name;
 
@@ -68,5 +81,16 @@ public class Player
             hp = maxHp;
         else
             hp = newHp;
+    }
+
+    /// <summary>This is ApplyModifier(float baseValue, Modifier modifier) Method.</summary>
+    public float ApplyModifier(float baseValue, Modifier modifier)
+    {
+        float returnValue = baseValue;
+        if (modifier == Modifier.Weak)
+            returnValue *= 0.5f;
+        else if (modifier == Modifier.Strong)
+            returnValue *= 1.5f;
+        return(returnValue);
     }
 }

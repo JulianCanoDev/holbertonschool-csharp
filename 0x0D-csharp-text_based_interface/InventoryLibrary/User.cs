@@ -7,6 +7,6 @@ namespace InventoryLibrary
     /// </summary>
     public class User : BaseClass
     {
-        
+        string name;
     }
 }

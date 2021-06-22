@@ -4,6 +4,7 @@ class Array
 {
     public static void Reverse(int[] array)
     {
+
         int i;
         if (array != null)
         {
